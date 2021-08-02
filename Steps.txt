@@ -1,0 +1,11 @@
+Cleaning
+1.Data was read using pandas
+2.All NaN values where replaced by ' '
+3.train_x,test_x were stacked vertically and then count vectorized together
+4. Each column was was count vectorized seprately
+5.Result was horizontally stacked with the company name column
+6.Using slicing train_x,test_x were separated and were stored
+Prediction
+1.train_x,test_x,train_y were laoded
+2.Multinomial naive bayes model was trained using for loop and partial fit as data was too large to store in memory.
+3.prediction was made on basis of model
